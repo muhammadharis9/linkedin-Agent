@@ -1,0 +1,31 @@
+Topic: Memory in LLMs / AI Agents
+
+Key Points:
+- LLMs are stateless.
+  - This means they do not automatically depend on previous inputs or conversations.
+- LLMs at inference are stateless by nature.
+- Problems with stateless LLMs:
+  - Forgetting or not retaining memory.
+  - Context window problem.
+- Types of memory:
+  - Episodic memory
+  - Semantic memory
+  - Procedural memory.
+- Working with long-term memory involves:
+  - Creation
+  - Storage
+  - Retrieval
+  - Injection.
+- Memory examples/systems mentioned:
+  - LangMem
+  - Mem0
+  - Supermemory.
+- Persistent memory:
+  - Connects short-term memory with a database.
+
+Important Terms:
+- Stateless: Does not keep memory from previous inputs by itself.
+- Context window: The limited amount of information an LLM can consider at one time.
+- Persistent memory: Memory stored outside the model, usually in a database, so it can be reused later.
+- Retrieval: Finding relevant stored memory when needed.
+- Injection: Adding retrieved memory back into the prompt/context.
